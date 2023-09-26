@@ -10,7 +10,9 @@ function Header() {
       </Link>
       <SearchOrder />
       <Username />
-      <p className="font-bold">Build By Sean Pivin</p>
+      <p className="font-bold text-blue-600 hover:text-2xl flex">
+        Build By Sean Pivin
+      </p>
     </header>
   );
 }
