@@ -8,10 +8,10 @@ function MenuItem({ pizza }) {
   const dispatch = useDispatch();
 
   function handleCart() {
-    console.log("Add to cart:", id);
     const newItem = {
       pizzaId: id,
       name,
+      quantity: 1,
       unitPrice,
       totalPrice: unitPrice * 1,
     };
