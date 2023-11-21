@@ -9,6 +9,9 @@ function Btn({ children, disabled, to, type, onClick }) {
     secondary:
       base +
       " border border-yellow-400 text-sm text-black-400 hover:bg-yellow-400 hover:text-white focus:bg-yellow-400 focus:text-white focus:ring-yellow-300 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed px-4 py-2 md:px-5 md:py-2.5 text-xs md:text-sm",
+    round:
+      base +
+      "px-2 py-1 md:px-5 md:py-2.5 text-xs md:px-3 md:py-2 text-sm rounded-full",
   };
   if (to)
     return (
